@@ -4,6 +4,7 @@ import { getData } from './constants/db';
 import Card from './components/card/card';
 import Cart from './components/cart/cart';
 import { useState } from 'react';
+import Detail from './components/details/detail';
 
 const courses = getData();
 const telegram = window.Telegram.WebApp
